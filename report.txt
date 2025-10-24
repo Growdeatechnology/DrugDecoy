@@ -1,0 +1,23 @@
+=== DGCNN Ligand Classification Report ===
+
+1️⃣ Reproducibility:
+Total ligands: 306
+Train/Val/Test sizes: 214/61/31
+Failed ligands: []
+
+2️⃣ Feature Transparency:
+Atom features: ['At.No', ' BP (K)', 'MP (K)', 'Density', 'at. wt.', 'Most stable oxidation State', 'covalent radius', 'At. Radius   (angstroms)', 's', 'p', 'd']
+Bond features: ['bond_type','weight']
+
+3️⃣ Benchmarking / Performance:
+Accuracy: 0.6452
+AUC: 0.7121
+F1 Score: 0.7442
+Training Time: 132.66 sec
+
+4️⃣ Hyperparameters:
+batch_size: 16
+learning_rate: 0.0002683356680650836
+dropout_rate: 0.45963239641614506
+num_rows_tensor: 27
+epochs: 157

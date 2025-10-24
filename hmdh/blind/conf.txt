@@ -1,0 +1,14 @@
+receptor = hmdh_pregrid.pdbqt
+
+
+center_x = -13.0319
+center_y = 6.72916
+center_z = 37.6745
+
+size_x = 42
+size_y = 42
+size_z = 42
+
+num_modes = 10
+energy_range = 4
+exhaustiveness = 100
